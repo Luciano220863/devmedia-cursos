@@ -31,6 +31,18 @@ p {
     margin-left: 60px;
     margin-right: 60px;
 }
+ul{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    font-style: oblique;
+    color: blueviolet;
+}
+
 
 blockquote {
     font-style: normal;
