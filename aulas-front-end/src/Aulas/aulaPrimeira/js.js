@@ -20,14 +20,15 @@ controls.forEach((control) => {
         if (currentItem < 0) {
             currentItem = maxItems - 1;
         }
-
         items.forEach((item) => item.classList.remove("current-item"));
-
         items[currentItem].scrollIntoView({
             behavior: "smooth",
             inline: "center"
         });
+        items[currentItem].classList.add("current-item");   
+        
+        
 
-        items[currentItem].classList.add("current-item");
+        
     });
 });
