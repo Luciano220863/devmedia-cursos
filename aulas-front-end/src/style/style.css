@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-@media(max-width:1200px){
-    section{
+@media(max-width:1200px) {
+    section {
         width: 1000px;
     }
 }
@@ -31,12 +31,13 @@ p {
     margin-left: 60px;
     margin-right: 60px;
 }
-ul{
+
+ul {
     margin-left: 60px;
     margin-right: 60px;
 }
 
-li{
+li {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: justify;
     font-style: oblique;
@@ -132,3 +133,13 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
     /* Firefox */
 
     /* Barra de rolagem horizontal foi retirada com sucesso, porém os botões de navegação não respondem. A navegação por hora esta sendo efetuada via keyboard */
+    @media (max-width: 768px) #conteudo-apoio .lf-secao {
+        padding: 0 20px;
+    }
+
+    div.lf-secao {
+        margin: 40px auto;
+    }
+        div {
+            display: block;
+        }
